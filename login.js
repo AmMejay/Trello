@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   botaoEntrarSemLogin.addEventListener('click', e => {
     e.preventDefault()
-    window.location.href = 'inicial.html'
+    window.location.href = 'telainicio.html'
   })
 
   botaoLogin.addEventListener('click', e => {
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       (nome === 'eduardogay123' && senha === 'eduardogay123') ||
       (nome === 'admin' && senha === 'admin')
     ) {
-      window.location.href = 'inicial.html'
+      window.location.href = 'telainicio.html'
     } else {
       document.getElementById('erro').style.display = 'block'
     }

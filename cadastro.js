@@ -10,7 +10,7 @@ button.addEventListener("click", (event) => {
 
  if(senha === confirmarSenha) {
     alert("Cadastro realizado com sucesso!")
-    window.location.href = "/login/index.html";
+    window.location.href = "index.html";
   } else {
     alert("As senhas não coincidem. Por favor, tente novamente.");
   }
