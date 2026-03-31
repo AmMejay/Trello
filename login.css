@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #6d63ff, #000399);
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.alincont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  gap: 30px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 166, 0);
+  margin-top: 20px;
+}
+
+label {
+  font-size: 20px;
+  color: rgb(255, 115, 0);
+}
+
+input {
+  border-radius: 0.5rem;
+  border: rgb(0, 0, 0) 2px solid;
+  color: rgb(0, 0, 0);
+  transition: 1s;
+  padding: 3px;
+  width: 230px;
+}
+
+input:focus {
+  border: rgb(255, 179, 0) 2px solid;
+  outline: none;
+}
+
+button {
+  width: 230px;
+  height: 30px;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid orange;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+u {
+  color: blue;
+}
+
+.cadastro {
+  text-align: center;
+}
+
+#erro {
+  display: none;
+  text-align: center;
+}
