@@ -11,20 +11,20 @@ document.addEventListener("DOMContentLoaded", () => {
         const tarefa = document.createElement("div");
         tarefa.classList.add("tarefa");
 
-        // texto da tarefa
+   
         const textoTarefa = document.createElement("span");
         textoTarefa.innerText = texto;
 
-        // botão de excluir
+       
         const botaoExcluir = document.createElement("button");
         botaoExcluir.innerText = "❌";
 
         botaoExcluir.addEventListener("click", (e) => {
-            e.stopPropagation(); // impede de mover a tarefa
+            e.stopPropagation(); 
             tarefa.remove();
         });
 
-        // mover entre colunas ao clicar
+       
         tarefa.addEventListener("click", () => {
             const atual = tarefa.parentElement.id;
 
